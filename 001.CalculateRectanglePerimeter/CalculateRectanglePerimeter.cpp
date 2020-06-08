@@ -1,7 +1,7 @@
 #include <iostream>
 
 #include "constants.h"
-#include "another.h"
+#include "lib\contants.h"
 
 using namespace std;
 
