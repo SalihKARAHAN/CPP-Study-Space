@@ -1,8 +1,8 @@
 #include <iostream>
 
-using namespace std;
+#include "constants.h"
 
-const int EXIT_VALUE = 0;
+using namespace std;
 
 int main(int argc, char const *argv[])
 {
@@ -25,5 +25,5 @@ int main(int argc, char const *argv[])
     cout << endl
          << "The total perimeter length of your rectangle is :" << total_edge_value << endl;
 
-    return EXIT_VALUE;
+    return EXIT_SUCCESS;
 }

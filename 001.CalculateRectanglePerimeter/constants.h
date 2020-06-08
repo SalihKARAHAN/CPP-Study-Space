@@ -1,0 +1,1 @@
+#define EXIT_SUCCESS 0
