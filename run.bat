@@ -15,7 +15,6 @@ FOR /D %%d IN ("%SECTION_CODE%.*") DO (
     ECHO %%d
     CD %%d
     REM:: https://stackoverflow.com/questions/3178342/compiling-a-c-program-with-gcc
-    DEL *.bin
     g++ *.cpp -o Program_%SECTION_CODE%.bin -lstdc++
     ECHO Uygulama Çıktısı:
     ECHO.
@@ -25,5 +24,6 @@ FOR /D %%d IN ("%SECTION_CODE%.*") DO (
 
     ECHO =============================== END OF EXECUTION ===============================
     ECHO.
+    DEL *.bin
     CD ..
 )
