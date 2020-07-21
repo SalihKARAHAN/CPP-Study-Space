@@ -29,10 +29,10 @@ int main(int argc, char const *argv[])
     }
 
     {
-        int arr[4] = {0};
+        int arr[4] = {-1};
         for (int i = 0; i < 4; i++)
         {
-            cout << "arr[" << i << "]" << i << endl;
+            cout << "arr[" << i << "]" << arr[i] << endl;
         }        
     }
     
